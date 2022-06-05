@@ -1,7 +1,8 @@
 import javax.swing.*;
-class helper extends JFrame{
+// this class shows frame concept only
+class helper {
    
-    //second method by   
+    //second method by   inheritence we have to Inherit Jframe class
     
     // helper(){
             
@@ -14,19 +15,21 @@ class helper extends JFrame{
 
 
     public static void main(String[] args) {
-        // System.out.println("Hello");
-        // System.out.println("Bye");
+     
 
         //1 creating frame 
         // JFrame frame=new JFrame();
-        // frame.setSize(400, 500);
-        // frame.setLayout(null);
-        // frame.setLocationRelativeTo(null);//to the center of the screen
-        // frame.setVisible(true);
+        JFrame frame=new JFrame("Demo Frame");
 
+        frame.setSize(600, 500);
+        frame.setLayout(null);
+        frame.setLocationRelativeTo(null);//to the center of the screen
+        frame.setVisible(true);
+   
+        //creating object of constructor  
         // new helper();
 
-        
+       
 
 
 
